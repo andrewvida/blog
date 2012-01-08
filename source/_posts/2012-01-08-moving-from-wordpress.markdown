@@ -4,7 +4,7 @@ title: "Moving from Wordpress"
 date: 2012-01-08 12:03
 comments: true
 categories: [Wordpress, Octopress, Pow, Github, Heroku]
-published: false
+published: true
 ---
 
 Well, I've done it!  I've taken the plunge to move my blog from Wordpress.  As any good software developer
