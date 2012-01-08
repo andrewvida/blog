@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Andrew Vida]]></title>
-  <link href="andrewvida.heroku.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Acceptance Critera | Andrew Vida]]></title>
+  <link href="andrewvida.heroku.com/blog/categories/acceptance-critera/atom.xml" rel="self"/>
   <link href="andrewvida.heroku.com/"/>
   <updated>2012-01-08T15:45:05-05:00</updated>
   <id>andrewvida.heroku.com/</id>
@@ -18,7 +18,7 @@
     <link href="andrewvida.heroku.com/blog/2012/01/06/using-acceptance-tests-to-define-done/"/>
     <updated>2012-01-06T14:50:00-05:00</updated>
     <id>andrewvida.heroku.com/blog/2012/01/06/using-acceptance-tests-to-define-done</id>
-    <content type="html"><![CDATA[<p>(This post was originally posted on <a href="https://twitter.com/ajimholmes">Jim Holmes&#8217;</a> <a href="http://frazzleddad.blogspot.com/2011/12/31-days-of-testing-kickoff.html">&#8220;31 Days of Testing&#8221;</a> blog series,
+    <content type="html"><![CDATA[<p>(This post was originally posted on <a href="https://twitter.com/ajimholmes">Jim Holmes'</a> <a href="http://frazzleddad.blogspot.com/2011/12/31-days-of-testing-kickoff.html">"31 Days of Testing"</a> blog series,
 but I thought it served some value here as well.)</p>
 
 <p>Have you ever been on a team and was asked “What is the definition of done?” You respond by saying,
@@ -85,38 +85,24 @@ to do to at a high level, so now we can come up with some examples to test our a
 in <a href="http://frazzleddad.blogspot.com/2011/12/31-days-of-testingday-15-cucumber-is.html">Tim Wingfield’s post on Day 15</a>.
 If you haven’t read it, go back and check it out. It’s an excellent post on the benefits of employing Cucumber.</p>
 
-<p>Here are a few scenarios that were created:</p>
+<p>Here are a few scenarios that were created:
+<code>text
+Given the shopper is a guest
+When they try to add an item to their shopping cart
+Then they will receive the error "Only authenticated shoppers can add items to their shopping cart."
+</code></p>
 
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='text'><span class='line'>Given the shopper is a guest
-</span><span class='line'>When they try to add an item to their shopping cart
-</span><span class='line'>Then they will receive the error &quot;Only authenticated shoppers can add items to their shopping cart.&quot;
-</span></code></pre></td></tr></table></div></figure>
+<p><code>
+Given an authenticated shopper
+When they click the "Add Item to Cart" button
+Then they will have an item in their shopping cart
+</code></p>
 
-
-
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='text'><span class='line'>Given an authenticated shopper
-</span><span class='line'>When they click the &quot;Add Item to Cart&quot; button
-</span><span class='line'>Then they will have an item in their shopping cart
-</span></code></pre></td></tr></table></div></figure>
-
-
-
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='text'><span class='line'>Given an authenticated shopper with an item in their shopping cart
-</span><span class='line'>When they click the &quot;Remove Item&quot; button
-</span><span class='line'>Then that item is no longer in their shopping cart
-</span></code></pre></td></tr></table></div></figure>
-
+<p><code>
+Given an authenticated shopper with an item in their shopping cart
+When they click the "Remove Item" button
+Then that item is no longer in their shopping cart
+</code></p>
 
 <p>These are only a few of the examples that were developed as part of the Three Amigos meeting.
 On our team, the output of the Three Amigos is a Cucumber feature file. We now have a shared understanding
