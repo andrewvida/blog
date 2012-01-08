@@ -15,11 +15,11 @@ my options, I decided to use Octopress.
 ### What is Octopress
 [Octopress](http://www.octopress.org) is basically Jekyll on steroids.  To get started with Jekyll, you have to write your own HTML
 templates, CSS, Javascript and set up your configuration.  I was okay with most of that, but I suck at
-design.  I love clean crip design, but for some reason, I'm missing that designer skill.  So, since Octopress
+design.  I love clean crisp design, but for some reason, I'm missing that designer skill.  So, since Octopress
 does that for me, I was in love!
 
 Other cool things about Octopress is that it uses HTML5.  It also has built in 3rd party support for Twitter,
-Github, Google Plus, Disqus, Pinboard and Delicious, to name a few. It also has a ton of plugins.  Some come
+Github, Google Plus, Disqus, Pinboard and Delicious to name a few. It also has a ton of plugins.  Some come
 from the Jekyll community, but others are specifically made for Octopress.  Oh, and did I mention it's open
 source?!
 
