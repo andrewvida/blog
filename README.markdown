@@ -1,4 +1,4 @@
-### Blog content for my personal blog
+## Blog content for my personal blog
 This repository is the blog content for the personal blog of Andrew Vida and are not. The thoughts shared here are of Andrew Vida and may not be those of my employer.
 The blog posts and images within them are copyright Andrew Vida and may not be used without my consent. All others are MIT licensed.
 
