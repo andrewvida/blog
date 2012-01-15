@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: ATDD | Andrew Vida]]></title>
-  <link href="andrewvida.heroku.com/blog/categories/atdd/atom.xml" rel="self"/>
-  <link href="andrewvida.heroku.com/"/>
-  <updated>2012-01-14T22:22:59-05:00</updated>
-  <id>andrewvida.heroku.com/</id>
+  <link href="http://andrewvida.heroku.com/blog/categories/atdd/atom.xml" rel="self"/>
+  <link href="http://andrewvida.heroku.com/"/>
+  <updated>2012-01-14T22:44:17-05:00</updated>
+  <id>http://andrewvida.heroku.com/</id>
   <author>
     <name><![CDATA[Andrew Vida]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Using Acceptance Tests To Define Done]]></title>
-    <link href="andrewvida.heroku.com/blog/2012/01/06/using-acceptance-tests-to-define-done/"/>
+    <link href="http://andrewvida.heroku.com/blog/2012/01/06/using-acceptance-tests-to-define-done/"/>
     <updated>2012-01-06T14:50:00-05:00</updated>
-    <id>andrewvida.heroku.com/blog/2012/01/06/using-acceptance-tests-to-define-done</id>
+    <id>http://andrewvida.heroku.com/blog/2012/01/06/using-acceptance-tests-to-define-done</id>
     <content type="html"><![CDATA[<p>(This post was originally posted on <a href="https://twitter.com/ajimholmes">Jim Holmes'</a> <a href="http://frazzleddad.blogspot.com/2011/12/31-days-of-testing-kickoff.html">"31 Days of Testing"</a> blog series,
 but I thought it served some value here as well.)</p>
 

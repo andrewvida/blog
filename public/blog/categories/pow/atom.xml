@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Pow | Andrew Vida]]></title>
-  <link href="andrewvida.heroku.com/blog/categories/pow/atom.xml" rel="self"/>
-  <link href="andrewvida.heroku.com/"/>
-  <updated>2012-01-14T22:22:59-05:00</updated>
-  <id>andrewvida.heroku.com/</id>
+  <link href="http://andrewvida.heroku.com/blog/categories/pow/atom.xml" rel="self"/>
+  <link href="http://andrewvida.heroku.com/"/>
+  <updated>2012-01-14T22:44:17-05:00</updated>
+  <id>http://andrewvida.heroku.com/</id>
   <author>
     <name><![CDATA[Andrew Vida]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Moving from Wordpress]]></title>
-    <link href="andrewvida.heroku.com/blog/2012/01/08/moving-from-wordpress/"/>
+    <link href="http://andrewvida.heroku.com/blog/2012/01/08/moving-from-wordpress/"/>
     <updated>2012-01-08T12:03:00-05:00</updated>
-    <id>andrewvida.heroku.com/blog/2012/01/08/moving-from-wordpress</id>
+    <id>http://andrewvida.heroku.com/blog/2012/01/08/moving-from-wordpress</id>
     <content type="html"><![CDATA[<p>Well, I've done it!  I've taken the plunge to move my blog from Wordpress.  As any good software developer
 will tell you, it's more fun to create stuff than to use something out of the box, so after looking around at
 my options, I decided to use Octopress.</p>
