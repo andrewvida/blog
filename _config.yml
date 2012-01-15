@@ -65,7 +65,7 @@ github_skip_forks: true
 
 # Twitter
 twitter_user: andrewvida
-twitter_tweet_count: 4
+twitter_tweet_count: 1
 twitter_show_replies: false
 twitter_follow_button: true
 twitter_show_follower_count: false
@@ -90,7 +90,7 @@ delicious_count: 3
 
 # Disqus Comments
 disqus_short_name: andrewvida
-disqus_show_comment_count: false
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id:
