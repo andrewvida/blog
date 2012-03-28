@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ATDD, | Andrew Vida]]></title>
+  <link href="http://andrewvida.heroku.com/blog/categories/atdd-/atom.xml" rel="self"/>
+  <link href="http://andrewvida.heroku.com/"/>
+  <updated>2012-03-27T23:16:52-04:00</updated>
+  <id>http://andrewvida.heroku.com/</id>
+  <author>
+    <name><![CDATA[Andrew Vida]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Watir Bazaar Recap]]></title>
+    <link href="http://andrewvida.heroku.com/blog/2012/03/27/watir-bazaar-recap/"/>
+    <updated>2012-03-27T22:42:00-04:00</updated>
+    <id>http://andrewvida.heroku.com/blog/2012/03/27/watir-bazaar-recap</id>
+    <content type="html"><![CDATA[<p><a href="http://www.twitter.com/bramhaghosh">Bramha Ghosh</a> and I were honored to speak at the Test Automation Bazaar, otherwise known as "Watir Bazaar", on March 24-25.</p>
+
+<p>We presented our journey in implementing Specification by Example in a mid-size enterprise environment at Grange Insurance
+in Columbus, OH.  We covered things such as what our environment was like previously, how we were able to convince management
+to try Acceptance Test Driven Development, how our team reacted, things that worked and how we plan to move forward.</p>
+
+<!-- More -->
+
+
+<p>It was amazing to be surrounded by so many passionate developers and testers! Even though Watir is used at many places such
+as Facebook, GAP, and Expedia, it's still got a small home grown feel.  The conference was small but everyone there had a voice
+into how Watir would progress into the future.  After all, it is an open source project!</p>
+
+<p>All of the conference sessions were recorded and you may find them <a href="http://kondoot.com/watir">here</a>.</p>
+
+<p>Our session can be found <a href="http://kondoot.com/videos/b14db732bb3">here</a>.</p>
+
+<script src="http://speakerdeck.com/embed/4f63779f72b23d001f01f071.js"></script>
+
+]]></content>
+  </entry>
+  
+</feed>
