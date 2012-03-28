@@ -3,7 +3,7 @@ layout: post
 title: "Watir Bazaar Recap"
 date: 2012-03-27 22:42
 comments: true
-categories: ATDD, Specification By Example, Watir Bazaar
+categories: [ATDD, Specification By Example, Watir Bazaar]
 ---
 
 [Bramha Ghosh](http://www.twitter.com/bramhaghosh) and I were honored to speak at the Test Automation Bazaar, otherwise known as "Watir Bazaar", on March 24-25.
